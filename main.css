@@ -1,0 +1,45 @@
+﻿h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    color: blue;
+    font-size: 25px;
+}
+
+.main {
+        background-image: url("bg.gif");
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+.gallery img {
+              width: 500px;
+              height: 500px;
+              border-radius: 250px;
+}
+
+.gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+}
+
+.container {
+            display: flex;
+}
+
+.nav {
+      background-color: red;
+      min-width: 140px;
+}
+
+@font-face {
+            font-family: Barcode;
+            src: url(barcode/C39HrP24DhTt.ttf);
+}
+
+.fontstyle {
+            font-family: Barcode;
+}

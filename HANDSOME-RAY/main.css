@@ -1,0 +1,41 @@
+h1 {
+  color:red;
+  font-size:50px;
+}
+
+.main {
+  background-image:url("background.jpg");
+  padding-left:30px;
+  
+}
+
+.main-img {
+  width:300px;
+  height:300px;
+}  
+
+.gallery img {
+  width:450px;
+  height:450px;
+  border-radius:200px;
+}
+
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.container {
+  display:flex;
+}
+
+.nav { 
+  background-color:red;
+  min-width:140px;
+}
+
+p {
+  color:black;
+  font-size:30px; 
+}
